@@ -1,6 +1,4 @@
-# Keyboard-HIEAMTSRN-Optimized
-
-HIEAMTSRN - Optimized Keyboard Layout
+# HIEAMTSRN - Optimized Keyboard Layout
 
 Download: [HIEAMTSRN-Optimized.zip](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
 
