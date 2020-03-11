@@ -1,6 +1,6 @@
 # HIEAMTSRN - Optimized Keyboard Layout
 
-**Download:** [HIEAMTSRN-Optimized.zip](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
+**Download:** [**HIEAMTSRN-Optimized.zip**](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
 
 **HIEAMTSRN-Standard**
 ![HIEAMTSRN-Standard layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-Standard%20layout.png)
