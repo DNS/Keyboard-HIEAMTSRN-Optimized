@@ -8,7 +8,7 @@ HIEAMTSRN-Standard
 HIEAMTSRN-AltGr
 ![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-AltGr%20layout.png)
 
-Download: [HIEAMTSRN-SiraitX.zip](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
+Download: [HIEAMTSRN-Optimized.zip](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
 
 **Windows usage:**
 
