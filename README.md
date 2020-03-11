@@ -1,10 +1,14 @@
-# HIEAMTSRN-SiraitX
+# Keyboard-HIEAMTSRN-Optimized
 
-HIEAMTSRN-SiraitX - Optimized Keyboard Layout
+HIEAMTSRN - Optimized Keyboard Layout
 
-![HIEAMTSRN-SiraitX layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-SiraitX%20layout.png)
+HIEAMTSRN-Standard
+![HIEAMTSRN-Standard layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-Standard%20layout.png)
 
-Download: [HIEAMTSRN-SiraitX.zip](https://github.com/dns/Keyboard-HIEAMTSRN-SiraitX/releases/download/v1.2/HIEAMTSRN-SiraitX.zip)
+HIEAMTSRN-AltGr
+![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-AltGr%20layout.png)
+
+Download: [HIEAMTSRN-SiraitX.zip](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
 
 **Windows usage:**
 
@@ -12,13 +16,13 @@ Download: [HIEAMTSRN-SiraitX.zip](https://github.com/dns/Keyboard-HIEAMTSRN-Sira
 
 **BSD usage:**
 
->`xmodmap hieamtsrn-bsd.xmodmap`
+>`xmodmap hieamtsrn-standard-bsd.xmodmap`
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with 2.47.
 
 **Linux usage:**
 
->`xmodmap hieamtsrn-linux.xmodmap`
+>`xmodmap hieamtsrn-standard-linux.xmodmap`
 
 
-Copyright (c) 2019 by Daniel Sirait
+Copyright (c) 2019-2020 by Daniel Sirait
