@@ -16,17 +16,21 @@ The BSD & Linux version created using xkeycaps.
 ![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-AltGr%20layout.png)
 
 
-**Windows usage:**
+**Windows install:**
 
 >Run setup.exe to install keyboard layout.
 
-**BSD usage:**
+**BSD install:**
 
 >`./setup.sh`
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
-**Linux usage:**
+**Linux install:**
+
+>`./setup.sh`
+
+**Cygwin install:**
 
 >`./setup.sh`
 
