@@ -26,9 +26,9 @@ The BSD & Linux version created using xkeycaps.
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
-**Linux install:**
+**Linux (Debian) usage:**
 
->`./setup.sh`
+Run `xmodmap hieamtsrn-linux.xmodmap` as startup command in Settings > Startup Applications.
 
 **Cygwin install:**
 
