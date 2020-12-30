@@ -6,7 +6,8 @@ The 'J', 'F', 'B' are arranged to make better typing experience when writing eng
 
 The Windows version created using [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 
-**Download:** [**HIEAMTSRN-Optimized.zip**](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
+# **Download:** [**HIEAMTSRN-Optimized.zip**](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
+
 
 **HIEAMTSRN-Standard**
 
@@ -24,6 +25,7 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 **BSD (GhostBSD with X) usage:**
 
 >`xmodmap ~/hieamtsrn-bsd.xmodmap`
+
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
 **BSD (FreeBSD without X) usage:**
