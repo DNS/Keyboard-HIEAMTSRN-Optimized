@@ -24,13 +24,13 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 **BSD (GhostBSD with X) usage:**
 
->`xmodmap ~/hieamtsrn-bsd.xmodmap`
+>`xmodmap /path/to/hieamtsrn-bsd.xmodmap`
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
 **BSD (FreeBSD without X) usage:**
 
-> Edit `/etc/rc.conf`, and change/add this line:
+Edit `/etc/rc.conf`, and change/add this line:
 
 > `keymap="/path/to/hieamtsrn-bsd.kbd"`
 
