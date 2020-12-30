@@ -9,11 +9,11 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 # **Download:** [**HIEAMTSRN-Optimized.zip**](https://github.com/dns/Keyboard-HIEAMTSRN-Optimized/releases/download/v2.0/HIEAMTSRN-Optimized.zip)
 
 
-**HIEAMTSRN-Standard**
+**HIEAMTSRN-Standard Keyboard Layout**
 
 ![HIEAMTSRN-Standard layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-Standard%20layout.png)
 
-**HIEAMTSRN-AltGr**
+**HIEAMTSRN-AltGr Keyboard Layout**
 
 ![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-AltGr%20layout.png)
 
@@ -30,7 +30,7 @@ FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with ne
 
 **BSD (FreeBSD without X) usage:**
 
-Edit `/etc/rc.conf`, change & add this line:
+Edit `/etc/rc.conf`, change or add this line:
 `keymap="/path/to/hieamtsrn-bsd.kbd"`
 
 **Linux (Debian) usage:**
