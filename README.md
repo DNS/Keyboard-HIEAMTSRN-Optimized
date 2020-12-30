@@ -21,20 +21,24 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 >Run setup.exe to install keyboard layout.
 
-**BSD usage:**
+**BSD (GhostBSD with X) usage:**
 
 >`xmodmap ~/hieamtsrn-bsd.xmodmap`
-
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
+
+**BSD (FreeBSD without X) usage:**
+
+Edit `/etc/rc.conf`, change & add this line:
+`keymap="/path/to/hieamtsrn-bsd.kbd"`
 
 **Linux (Debian) usage:**
 
->`xmodmap ~/hieamtsrn-bsd.xmodmap`
+>`xmodmap /path/to/hieamtsrn-bsd.xmodmap`
 
 Run `xmodmap hieamtsrn-linux.xmodmap` as startup command in Settings > Startup Applications.
 
-**Cygwin install:**
+**Cygwin/X usage:**
 
->`xmodmap ~/hieamtsrn-cygwin.xmodmap`
+>`xmodmap /path/to/hieamtsrn-cygwin.xmodmap`
 
 Copyright (c) 2019-2020 by Daniel Sirait
