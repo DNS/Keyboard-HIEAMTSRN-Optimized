@@ -30,8 +30,9 @@ FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with ne
 
 **BSD (FreeBSD without X) usage:**
 
-Edit `/etc/rc.conf`, change or add this line:
-`keymap="/path/to/hieamtsrn-bsd.kbd"`
+> Edit `/etc/rc.conf`, and change/add this line:
+
+> `keymap="/path/to/hieamtsrn-bsd.kbd"`
 
 **Linux (Debian) usage:**
 
