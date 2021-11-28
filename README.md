@@ -22,27 +22,25 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 >Run setup.exe to install keyboard layout.
 
-**BSD (GhostBSD with X) usage:**
+FreeBSD/GhostBSD (with X) usage:
 
 >`xmodmap /path/to/hieamtsrn-bsd.xmodmap`
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
-**FreeBSD (console/without X) usage:**
+**FreeBSD (console/without X) install:**
 
-> cp hieamtsrn-freebsd.kbd /usr/share/syscons/keymaps/hieamtsrn-freebsd.kbd
+> # chmod +x install-freebsd.sh
+> # ./install-freebsd.sh
+> # shutdown -r now
 
-Edit `/etc/rc.conf`, and change/add this line:
-> `keymap="hieamtsrn-freebsd.kbd"`
+**NetBSD (console/without X) install:**
 
-**NetBSD (console/without X) usage:**
-> cp hieamtsrn-netbsd.mapfile /usr/share/wscons/keymaps/hieamtsrn-netbsd.mapfile
+> # chmod +x install-freebsd.sh
+> # ./install-freebsd.sh
+> # shutdown -r now
 
-Edit `/etc/wscons.conf` 
-mapfile hieamtsrn-netbsd.mapfile
-mapfile /usr/share/wscons/keymaps/hieamtsrn-netbsd.mapfile
-
-**Linux (Debian) usage:**
+**Linux (Debian, with X) usage:**
 
 >`xmodmap /path/to/hieamtsrn-bsd.xmodmap`
 
@@ -52,4 +50,4 @@ Run `xmodmap hieamtsrn-linux.xmodmap` as startup command in Settings > Startup A
 
 >`xmodmap /path/to/hieamtsrn-cygwin.xmodmap`
 
-Copyright (c) 2019-2020 by Daniel Sirait
+Copyright (c) 2019-2021 by Daniel Sirait
