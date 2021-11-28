@@ -28,11 +28,19 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
-**BSD (FreeBSD without X) usage:**
+**FreeBSD (console/without X) usage:**
+
+> cp hieamtsrn-freebsd.kbd /usr/share/syscons/keymaps/hieamtsrn-freebsd.kbd
 
 Edit `/etc/rc.conf`, and change/add this line:
+> `keymap="hieamtsrn-freebsd.kbd"`
 
-> `keymap="/path/to/hieamtsrn-bsd.kbd"`
+**NetBSD (console/without X) usage:**
+> cp hieamtsrn-netbsd.mapfile /usr/share/wscons/keymaps/hieamtsrn-netbsd.mapfile
+
+Edit `/etc/wscons.conf` 
+mapfile hieamtsrn-netbsd.mapfile
+mapfile /usr/share/wscons/keymaps/hieamtsrn-netbsd.mapfile
 
 **Linux (Debian) usage:**
 
