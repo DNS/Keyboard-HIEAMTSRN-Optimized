@@ -30,15 +30,15 @@ FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with ne
 
 **FreeBSD (console/without X) install:**
 
-> # chmod +x install-freebsd.sh
-> # ./install-freebsd.sh
-> # shutdown -r now
+>`# chmod +x install-freebsd.sh`
+>`# ./install-freebsd.sh`
+>`# shutdown -r now`
 
 **NetBSD (console/without X) install:**
 
-> # chmod +x install-freebsd.sh
-> # ./install-freebsd.sh
-> # shutdown -r now
+>`# chmod +x install-freebsd.sh`
+>`# ./install-freebsd.sh`
+>`# shutdown -r now`
 
 **Linux (Debian, with X) usage:**
 
