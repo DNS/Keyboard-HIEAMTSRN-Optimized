@@ -20,17 +20,18 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 **Windows install:**
 
->Run setup.exe to install keyboard layout.
+```Run setup.exe to install keyboard layout.```
 
-FreeBSD/GhostBSD (with X) usage:
+**FreeBSD/GhostBSD (with X) usage:**
 
->`xmodmap /path/to/hieamtsrn-bsd.xmodmap`
+```xmodmap /path/to/hieamtsrn-bsd.xmodmap```
+
 
 FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with newer 2.47.
 
 **FreeBSD (console/without X) install:**
 
-```shell
+```
 # chmod +x install-freebsd.sh
 # ./install-freebsd.sh
 # shutdown -r now
@@ -38,7 +39,7 @@ FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with ne
 
 **NetBSD (console/without X) install:**
 
-```shell
+```
 # chmod +x install-freebsd.sh
 # ./install-freebsd.sh
 # shutdown -r now
@@ -46,12 +47,12 @@ FreeBSD/GhostBSD use older version of XKeyCaps 2.46, it's not compatible with ne
 
 **Linux (Debian, with X) usage:**
 
->`xmodmap /path/to/hieamtsrn-bsd.xmodmap`
+```xmodmap /path/to/hieamtsrn-bsd.xmodmap```
 
 Run `xmodmap hieamtsrn-linux.xmodmap` as startup command in Settings > Startup Applications.
 
 **Cygwin/X usage:**
 
->`xmodmap /path/to/hieamtsrn-cygwin.xmodmap`
+```xmodmap /path/to/hieamtsrn-cygwin.xmodmap```
 
 Copyright (c) 2019-2021 by Daniel Sirait
