@@ -1,0 +1,65 @@
+// HIEAMTSRN (Standard)
+// 2019-2024 Daniel Sirait, https://github.com/DNS/Keyboard-HIEAMTSRN-Optimized
+// Public domain.
+
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "HIEAMTSRN" {
+
+	include "us(basic)"
+	name[Group1] = "HIEAMTSRN";
+
+	key <TLDE> {[	grave,			asciitilde		]};
+	key <AE01> {[	1,				exclam			]};
+	key <AE02> {[	2,				at				]};
+	key <AE03> {[	3,				numbersign		]};
+	key <AE04> {[	4,				dollar			]};
+	key <AE05> {[	5,				percent			]};
+	key <AE06> {[	6,				asciicircum		]};
+	key <AE07> {[	7,				ampersand		]};
+	key <AE08> {[	8,				asterisk		]};
+	key <AE09> {[	9,				parenleft		]};
+	key <AE10> {[	0,				parenright		]};
+	key <AE11> {[	bracketleft,	braceleft		]};
+	key <AE12> {[	bracketright,	braceright		]};
+	key <BKSP> {[	Caps_Lock,		Caps_Lock		]};
+
+	key <AD01> {[	j,				J				]};
+	key <AD02> {[	y,				Y				]};
+	key <AD03> {[	o,				O				]};
+	key <AD04> {[	u,				U				]};
+	key <AD05> {[	apostrophe,		quotedbl		]};
+	key <AD06> {[	equal,			plus			]};
+	key <AD07> {[	k,				K				]};
+	key <AD08> {[	d,				D				]};
+	key <AD09> {[	c,				C				]};
+	key <AD10> {[	l,				L				]};
+	key <AD11> {[	p,				P				]};
+	key <AD12> {[	slash,			question		]};
+	key <BKSL> {[	backslash,		bar				]};
+
+	key <CAPS> {[	BackSpace,		BackSpace		]};
+	key <AC01> {[	h,				H				]};
+	key <AC02> {[	i,				I				]};
+	key <AC03> {[	e,				E				]};
+	key <AC04> {[	a,				A				]};
+	key <AC05> {[	comma,			less			]};
+	key <AC06> {[	minus,			underscore		]};
+	key <AC07> {[	m,				M				]};
+	key <AC08> {[	t,				T				]};
+	key <AC09> {[	s,				S				]};
+	key <AC10> {[	r,				R				]};
+	key <AC11> {[	n,				N				]};
+
+	key <AB01> {[	x,				X				]};
+	key <AB02> {[	q,				Q				]};
+	key <AB03> {[	f,				F				]};
+	key <AB04> {[	period,			greater			]};
+	key <AB05> {[	semicolon,		colon			]};
+	key <AB06> {[	z,				Z				]};
+	key <AB07> {[	w,				W				]};
+	key <AB08> {[	g,				G				]};
+	key <AB09> {[	b,				B				]};
+	key <AB10> {[	v,				V				]};
+
+	key <SPCE> {[	space,			space			]};
+};
