@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> New Xorg - different key-codes
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:freebsd-current%40freebsd.org?Subject=Re%3A%20New%20Xorg%20-%20different%20key-codes&In-Reply-To=%3Cf130773f-7d68-2062-3ada-e9ebd888a5fe%40freebsd.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="075496.html">
+   <LINK REL="Next"  HREF="075497.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>New Xorg - different key-codes</H1>
+    <B>Niclas Zeising</B> 
+    <A HREF="mailto:freebsd-current%40freebsd.org?Subject=Re%3A%20New%20Xorg%20-%20different%20key-codes&In-Reply-To=%3Cf130773f-7d68-2062-3ada-e9ebd888a5fe%40freebsd.org%3E"
+       TITLE="New Xorg - different key-codes">zeising at freebsd.org
+       </A><BR>
+    <I>Wed Mar 11 09:29:13 UTC 2020</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="075496.html">New Xorg - different key-codes
+</A></li>
+        <LI>Next message (by thread): <A HREF="075497.html">New Xorg - different key-codes
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#75495">[ date ]</a>
+              <a href="thread.html#75495">[ thread ]</a>
+              <a href="subject.html#75495">[ subject ]</a>
+              <a href="author.html#75495">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On 2020-03-11 01:46, Greg 'groggy' Lehey wrote:
+&gt;<i> 
+</I>&gt;<i> On Wednesday, 11 March 2020 at  0:20:03 +0000, Poul-Henning Kamp wrote:
+</I>&gt;<i> [originally sent to current@]
+</I>&gt;&gt;<i> I just updated my laptop from source, and somewhere along the way
+</I>&gt;&gt;<i> the key-codes Xorg sees changed.
+</I>&gt;<i> 
+</I>&gt;<i> Indeed.  This doesn't just affect -CURRENT: it happened to me on
+</I>&gt;<i> -STABLE last week, so I'm copying that list too.  See
+</I>&gt;<i> <A HREF="http://www.lemis.com/grog/diary-mar2020.php?topics=c&amp;subtitle=Daily%20teevee%20update&amp;article=D-20200306-002910#D-20200306-002910">http://www.lemis.com/grog/diary-mar2020.php?topics=c&amp;subtitle=Daily%20teevee%20update&amp;article=D-20200306-002910#D-20200306-002910</A>
+</I>&gt;<i> , not the first entry on the subject.
+</I>&gt;<i> 
+</I>&gt;&gt;<i> I have the right Alt key mapped to &quot;Multi_key&quot;, which is now
+</I>&gt;&gt;<i> keycode 108 instead of 113, which is now arrow left instead.
+</I>&gt;<i> 
+</I>&gt;<i> Interesting.  Mine wandered from 117 to 147, with PageDown (&quot;Next&quot;) as
+</I>&gt;<i> collateral damage.  It seems that there are a lot of strange new key
+</I>&gt;<i> bindings (partial output of xmodmap -pk):
+</I>&gt;<i> 
+</I>&gt;<i>      117         0xff56 (Next)   0x0000 (NoSymbol)       0xff56 (Next)
+</I>&gt;<i>      130         0xff31 (Hangul) 0x0000 (NoSymbol)       0xff31 (Hangul)
+</I>&gt;<i>      131         0xff34 (Hangul_Hanja)   0x0000 (NoSymbol)       0xff34 (Hangul_Hanja)
+</I>&gt;<i>      135         0xff67 (Menu)   0x0000 (NoSymbol)       0xff67 (Menu)
+</I>&gt;<i>      147         0x1008ff65 (XF86MenuKB) 0x0000 (NoSymbol)       0x1008ff65 (XF86MenuKB)
+</I>&gt;<i> 
+</I>&gt;<i> Some of these may reflect other remappings that I have done.
+</I>&gt;<i> 
+</I>&gt;&gt;<i> I hope this email saves somebody else from the frustrating
+</I>&gt;&gt;<i> morning I had...
+</I>&gt;<i> 
+</I>&gt;<i> Sorry.  I should have thought of reporting it.  For me, with a number
+</I>&gt;<i> of other issues, it was a frustrating week,some of which are still not
+</I>&gt;<i> resolved.
+</I>&gt;<i> 
+</I>
+This has to do with switching to using evdev to handle input devices on 
+FreeBSD 12 and CURRENT.  There's been several reports, and suggested 
+solutions to this, as well as an UPDATING entry detailing the change.
+
+I'm sorry that it has caused fallout, but it is something that needs to 
+be done in order to keep up with upstream graphics stack, and to improve 
+FreeBSD desktop support in general.
+
+<A HREF="https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=196678">https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=196678</A> has some 
+discussions regarding input devices, as does the x11@ mailing list archives.
+
+Regards
+-- 
+Niclas Zeising
+FreeBSD Graphics Team
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="075496.html">New Xorg - different key-codes
+</A></li>
+	<LI>Next message (by thread): <A HREF="075497.html">New Xorg - different key-codes
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#75495">[ date ]</a>
+              <a href="thread.html#75495">[ thread ]</a>
+              <a href="subject.html#75495">[ subject ]</a>
+              <a href="author.html#75495">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.freebsd.org/mailman/listinfo/freebsd-current">More information about the freebsd-current
+mailing list</a><br>
+</body></html>
