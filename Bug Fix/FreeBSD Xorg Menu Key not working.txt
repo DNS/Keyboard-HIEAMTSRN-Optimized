@@ -1,0 +1,11 @@
+FreeBSD Xorg bug: Menu Key not working
+
+[EDIT] /usr/local/share/X11/xkb/symbols/inet
+
+key <I147>   {      [ XF86MenuKB            ]       };    // cause bug
+key <I147>   {      [ Menu                  ]       };    // fixed
+
+
+
+
+

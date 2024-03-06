@@ -8,11 +8,6 @@
 // printf '\n\n\n\n\n' >> /usr/local/share/X11/xkb/symbols/us
 // cat HIEAMTSRN.xkb >> /usr/local/share/X11/xkb/symbols/us
 
-// FreeBSD bug: Menu Key not working
-// XF86MenuKB cause bug
-//    [EDIT] /usr/local/share/X11/xkb/symbols/inet
-//    key <I147>   {      [ XF86MenuKB            ]       };    // cause bug
-//    key <I147>   {      [ Menu                  ]       };    // fixed
 
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
 // │  `  │  !  │  @  │  #  │  $  │  %  │  ^  │  &  │  *  │  (  │  )  │  {  │  }  ┃CapsLock ┃
