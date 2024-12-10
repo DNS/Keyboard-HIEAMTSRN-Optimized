@@ -55,4 +55,4 @@ Run `xmodmap hieamtsrn-linux.xmodmap` as startup command in Settings > Startup A
 
 ```xmodmap /path/to/hieamtsrn-cygwin.xmodmap```
 
-Copyright (c) 2019-2021 by Daniel Sirait
+
