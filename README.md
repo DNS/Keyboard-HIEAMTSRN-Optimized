@@ -2,7 +2,7 @@
 
 HIEAMTSRN is an optimized keyboard layout created by Sasha Viminitz in 2014, and optimized further by Daniel Sirait. 
 
-The 'J', 'F', 'B' are arranged to make better typing experience when writing english text.
+The 'J', 'F', 'B', 'Q' are arranged to make better typing experience when writing english text.
 
 The Windows version created using [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 
