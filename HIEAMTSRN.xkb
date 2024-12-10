@@ -8,6 +8,9 @@
 // printf '\n\n\n\n\n' >> /usr/local/share/X11/xkb/symbols/us
 // cat HIEAMTSRN.xkb >> /usr/local/share/X11/xkb/symbols/us
 
+// MENU KEY BUG FIX
+// /usr/local/share/X11/xkb/symbols/inet
+// /usr/local/share/X11/xkb/keycodes/evdev
 
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
 // │  `  │  !  │  @  │  #  │  $  │  %  │  ^  │  &  │  *  │  (  │  )  │  {  │  }  ┃CapsLock ┃
