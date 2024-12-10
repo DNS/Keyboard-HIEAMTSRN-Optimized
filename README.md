@@ -1,6 +1,6 @@
 # HIEAMTSRN - Optimized Keyboard Layout
 
-HIEAMTSRN is an optimized keyboard layout created by Sasha Viminitz, optimized by Daniel Sirait. 
+HIEAMTSRN is an optimized keyboard layout created by Sasha Viminitz in 2014, and optimized further by Daniel Sirait. 
 
 The 'J', 'F', 'B' are arranged to make better typing experience when writing english text.
 
