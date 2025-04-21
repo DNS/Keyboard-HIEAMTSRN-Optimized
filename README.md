@@ -59,3 +59,4 @@ Run `xmodmap hieamtsrn-linux.xmodmap` as startup command in Settings > Startup A
 © 2019-2025 Daniel Sirait
 
 
+
