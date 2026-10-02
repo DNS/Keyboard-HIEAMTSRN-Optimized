@@ -22,7 +22,7 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 Download [**HIEAMTSRN Optimized**](https://github.com/DNS/Keyboard-HIEAMTSRN-Optimized/releases/latest)
 
-© 2019-2025 Daniel Sirait
+© 2019-2026 Daniel Sirait
 
 
 
