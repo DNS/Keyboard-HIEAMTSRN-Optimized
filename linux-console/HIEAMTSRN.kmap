@@ -1,0 +1,79 @@
+# HIEAMTSRN.kmap
+# Daniel Sirait © 2026
+keymaps 0-2,4-6,8-9,12
+alt_is_meta
+include "qwerty-layout"
+include "linux-with-alt-and-altgr"
+strings as usual
+
+keycode   1 = Escape
+keycode   2 = one              exclam
+keycode   3 = two              at               at               nul              nul
+keycode   4 = three            numbersign
+	control	keycode   4 = Escape
+keycode   5 = four             dollar           dollar           Control_backslash
+keycode   6 = five             percent
+	control	keycode   6 = Control_bracketright
+keycode   7 = six              asciicircum
+	control	keycode   7 = Control_asciicircum
+keycode   8 = seven            ampersand        braceleft        Control_underscore
+keycode   9 = eight            asterisk         bracketleft      Delete
+keycode  10 = nine             parenleft        bracketright
+keycode  11 = zero             parenright       braceright
+keycode  12 = bracketleft      braceleft
+	control keycode  12 = Escape
+keycode  13 = bracketright     braceright       asciitilde
+	control keycode  13 = Control_bracketright
+keycode  14 = Caps_Lock
+keycode  15 = Tab
+keycode  16 = j
+keycode  17 = y
+keycode  18 = o
+keycode  19 = u
+keycode  20 = apostrophe       quotedbl
+	control	keycode  20 = Control_g
+keycode  21 = equal            plus
+keycode  22 = k
+keycode  23 = d
+keycode  24 = c
+keycode  25 = l
+keycode  26 = p
+keycode  27 = slash            question
+	control	keycode  27 = Delete
+keycode  28 = Return
+	alt	keycode  28 = Meta_Control_m
+keycode  29 = Control
+keycode  30 = h
+keycode  31 = i
+keycode  32 = e
+keycode  33 = a
+keycode  34 = comma            less
+keycode  35 = minus            underscore       backslash        Control_underscore Control_underscore
+keycode  36 = m
+keycode  37 = t
+keycode  38 = s
+keycode  39 = r
+keycode  40 = n
+keycode  41 = grave            asciitilde
+	control	keycode  41 = nul
+keycode  42 = Shift
+keycode  43 = backslash        bar
+	control	keycode  43 = Control_backslash
+keycode  44 = x
+keycode  45 = q
+keycode  46 = f
+keycode  47 = period           greater
+keycode  48 = semicolon        colon
+keycode  49 = z
+keycode  50 = w
+keycode  51 = g
+keycode  52 = b
+keycode  53 = v
+keycode  54 = Shift
+keycode  56 = Alt
+keycode  57 = space
+	control	keycode  57 = nul
+keycode  58 = Delete
+keycode  86 = less             greater          bar
+keycode  97 = Control
+keycode 100 = Alt

@@ -1,8 +1,15 @@
 ﻿<#
 
-https://unix.stackexchange.com/questions/51804/how-can-i-install-a-new-keyboard-layout-in-kde-4
+Tested & compatible with:
+	- Linux
+	- FreeBSD
+	- NetBSD
 
 #>
+
+
+# https://unix.stackexchange.com/questions/51804/how-can-i-install-a-new-keyboard-layout-in-kde-4
+
  
 Copy-Item -Path /usr/share/X11/xkb/rules/evdev.xml -Destination /usr/share/X11/xkb/rules/evdev.xml.OLD
 Copy-Item -Path /usr/share/X11/xkb/rules/evdev.lst -Destination /usr/share/X11/xkb/rules/evdev.lst.OLD
