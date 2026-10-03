@@ -3,3 +3,4 @@ build/*
 *.gz
 *.exe
 *.msi
+*.zip
