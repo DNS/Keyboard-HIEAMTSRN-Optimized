@@ -15,12 +15,12 @@ if whoami | grep -qi 'root'; then
 	gzip -k hieamtsrn.kmap
 	cp -f hieamtsrn.kmap.gz /usr/share/keymaps/i386/qwerty/hieamtsrn.kmap.gz
 	
-	'#!/bin/sh' >> /etc/rc.local
-	'loadkeys hieamtsrn' >> /etc/rc.local
+	echo '#!/bin/sh' >> /etc/rc.local
+	echo 'loadkeys hieamtsrn' >> /etc/rc.local
 	chmod +x /etc/rc.local
 
 	shutdown -r now
 else
-	echo 'not root'
+	echo 'Please run as root'
 	exit 1
 fi
