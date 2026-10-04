@@ -1,10 +1,7 @@
-#!/usr/bin/bash
+#!/bin/bash
 
-
-if cat /etc/os-release | grep -qi debian;  then 
-	#echo 'running on debian'
-else
-	echo 'this installer is only for debian'
+if ! (cat /etc/os-release | grep -i '^ID' | cut -d= -f2 | tr -d '"' | grep -qiE 'debian'); then
+	echo 'only for debian'
 	exit 1
 fi
 
