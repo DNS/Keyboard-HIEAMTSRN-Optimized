@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! (cat /etc/os-release | grep -i '^ID' | cut -d= -f2 | tr -d '"' | grep -qiE 'debian'); then
-	echo 'only for debian'
+	echo 'This installer is only works on Debian-based systems'
 	exit 1
 fi
 
