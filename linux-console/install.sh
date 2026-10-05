@@ -12,9 +12,8 @@ if whoami | grep -qi 'root'; then
 	gzip -k hieamtsrn.kmap
 	cp -f hieamtsrn.kmap.gz /usr/share/keymaps/i386/qwerty/hieamtsrn.kmap.gz
 	
-	echo '#!/bin/sh' >> /etc/rc.local
-	echo 'loadkeys hieamtsrn' >> /etc/rc.local
-	chmod +x /etc/rc.local
+	echo '' >> ~/.profile
+	echo 'loadkeys hieamtsrn' >> ~/.profile
 
 	shutdown -r now
 else
