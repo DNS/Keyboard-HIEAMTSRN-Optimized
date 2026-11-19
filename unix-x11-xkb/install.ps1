@@ -10,7 +10,15 @@ Tested & compatible with:
 
 # https://unix.stackexchange.com/questions/51804/how-can-i-install-a-new-keyboard-layout-in-kde-4
 
- 
+
+
+if ($env:USER -ne 'root') {
+	Write-Host "This script must be run as root."
+	exit 1
+}
+
+
+
 Copy-Item -Path /usr/share/X11/xkb/rules/evdev.xml -Destination /usr/share/X11/xkb/rules/evdev.xml.OLD
 Copy-Item -Path /usr/share/X11/xkb/rules/evdev.lst -Destination /usr/share/X11/xkb/rules/evdev.lst.OLD
 Copy-Item -Path /usr/share/X11/xkb/symbols/us -Destination /usr/share/X11/xkb/symbols/us.OLD

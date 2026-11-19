@@ -24,4 +24,4 @@ cp -f hieamtsrn.kmap.gz /usr/share/keymaps/i386/qwerty/hieamtsrn.kmap.gz
 echo '' >> ~/.profile
 echo 'loadkeys hieamtsrn' >> ~/.profile
 
-shutdown -r now
+#shutdown -r now

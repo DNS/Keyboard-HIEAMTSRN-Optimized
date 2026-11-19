@@ -1,7 +1,7 @@
 $VERSION = Get-Date -Format 'yyyy-M-d'
 
 ri build -Recurse -Force -ErrorAction SilentlyContinue
-md build -ErrorAction SilentlyContinue
+New-Item -Path "build" -ItemType Directory -ErrorAction SilentlyContinue
 
 tar -pcvzf "build/hieamtsrn-freebsd-console-$VERSION.tar.gz" freebsd-console
 tar -pcvzf "build/hieamtsrn-netbsd-console-$VERSION.tar.gz" netbsd-console
