@@ -11,11 +11,11 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 **HIEAMTSRN-Standard Keyboard Layout**
 
-![HIEAMTSRN-Standard layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-Standard%20layout.png)
+![HIEAMTSRN-Standard layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/Layout/HIEAMTSRN-Standard%20layout.png)
 
 **HIEAMTSRN-AltGr Keyboard Layout**
 
-![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/HIEAMTSRN-AltGr%20layout.png)
+![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/Layout/HIEAMTSRN-AltGr%20layout.png)
 
 
 **Installation:**
