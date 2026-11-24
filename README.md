@@ -17,10 +17,9 @@ The Windows version created using [MSKLC](https://www.microsoft.com/en-us/downlo
 
 ![HIEAMTSRN-AltGr layout.png](https://raw.githubusercontent.com/dns/Keyboard-HIEAMTSRN-SiraitX/master/Layout/HIEAMTSRN-AltGr%20layout.png)
 
+**Download Page:** [**Release Latest**](https://github.com/DNS/Keyboard-HIEAMTSRN-Optimized/releases/latest)
 
-**Installation:**
-
-Download [**HIEAMTSRN Optimized**](https://github.com/DNS/Keyboard-HIEAMTSRN-Optimized/releases/latest)
+**Download Source Code:** [**https://tinyurl.com/HIEAMTSRN**](https://tinyurl.com/HIEAMTSRN)
 
 © 2019-2026 Daniel Sirait
 
