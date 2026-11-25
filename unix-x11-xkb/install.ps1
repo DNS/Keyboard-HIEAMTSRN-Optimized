@@ -12,7 +12,7 @@ Tested & compatible with:
 
 
 
-if ($env:USER -ne 'root') {
+if ($(whoami) -ne 'root') {
 	Write-Host "This script must be run as root."
 	exit 1
 }
