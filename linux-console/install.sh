@@ -7,7 +7,7 @@ if [ "$(whoami)" != "root" ]; then
 fi
 
 
-if ! (cat /etc/os-release | grep -i '^ID' | cut -d= -f2 | tr -d '"' | grep -qiE 'debian'); then
+if ! (cat /etc/os-release | grep -i '^ID' | cut -d= -f2 | tr -d '"' | grep -qiE 'debian|ubuntu'); then
 	echo 'This installer is only works on Debian-based systems'
 	exit 1
 fi
