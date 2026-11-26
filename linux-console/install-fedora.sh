@@ -15,7 +15,7 @@ fi
 
 
 # DEPENDENCIES
-apt install -y console-data
+#apt install -y console-data
 
 # INSTALLATION
 mv hieamtsrn.kmap hieamtsrn.map
