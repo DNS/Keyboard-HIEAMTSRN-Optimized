@@ -18,7 +18,7 @@ fi
 #apt install -y console-data
 
 # INSTALLATION
-mv hieamtsrn.kmap hieamtsrn.map
+cp hieamtsrn.kmap hieamtsrn.map
 gzip -k hieamtsrn.map
 cp -f hieamtsrn.kmap.gz /usr/lib/kbd/keymaps/i386/qwerty/hieamtsrn.map.gz
 
