@@ -8,7 +8,7 @@ fi
 
 
 if ! (cat /etc/os-release | grep -i '^ID' | cut -d= -f2 | tr -d '"' | grep -qiE 'rhel|fedora|rocky|centos'); then
-	echo 'This installer is only works on Debian-based systems'
+	echo 'This installer is only works on Fedora-based systems'
 	exit 1
 fi
 
