@@ -28,4 +28,7 @@ echo 'loadkeys hieamtsrn' >> ~/.profile
 #shutdown -r now
 
 
-
+cat /etc/vconsole.conf
+localectl status
+localectl list-keymaps
+localectl set-keymap us-colemak
