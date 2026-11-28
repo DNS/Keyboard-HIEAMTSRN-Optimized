@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# support: debian
 
 if [ "$(whoami)" != "root" ]; then
     echo 'Please run as root'
